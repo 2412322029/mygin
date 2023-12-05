@@ -1,0 +1,27 @@
+
+[Server]
+addr = "127.0.0.1"
+port = 8080
+Cors = "*"
+
+[log]
+level = "debug"
+path = "logs/main.log"
+
+[Path]
+staticPath = "/static"
+filePath = "uploadfile"
+
+[Db]
+dbtype = "sqlite"
+
+[Db.sqlite]
+filename = "test.db"
+
+[Db.mysql]
+host = "127.0.0.1"
+port = 3306
+username = "root"
+password = "123456"
+dbname = "gotest"
+		
